@@ -1,0 +1,56 @@
+@media (max-width: 991.98px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-button {
+        display: inline-grid;
+    }
+
+    .project-showcase,
+    .contact-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .project-stack {
+        min-height: 430px;
+    }
+
+    .stack-card img {
+        min-height: 430px;
+    }
+
+    .experience-row,
+    .stack-grid,
+    .filter-bar {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .site-shell {
+        width: min(100% - 1.1rem, var(--container-width));
+    }
+
+    .nav-inner {
+        min-height: 68px;
+    }
+
+    .hero-actions .btn-portfolio,
+    .hero-actions .btn-quiet,
+    .social-actions .btn-quiet {
+        width: 100%;
+    }
+
+    .project-stack {
+        min-height: 380px;
+    }
+
+    .stack-card img {
+        min-height: 380px;
+    }
+
+    .stack-card-caption {
+        flex-direction: column;
+    }
+}

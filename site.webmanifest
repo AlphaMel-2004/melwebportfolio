@@ -1,0 +1,15 @@
+{
+    "name": "Rumel Eumague Portfolio",
+    "short_name": "Rumel",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f4f1eb",
+    "theme_color": "#3d5a4f",
+    "icons": [
+        {
+            "src": "assets/icons/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alphamel-2004.github.io/Mel_webPortfolio/sitemap.xml
